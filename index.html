@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="#" class="logo">My Portfolio</a>
+        <a href="#" class="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <ul id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>This is my portfolio</h1>
+        <a href="#works" class="cta-btn">View my works in html and css</a>
+      </section>
+      <hr/>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Also love to listen music.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Hi there, I am Turatbek Torobekov and I am 19 years old. I grew up in Russia city Ulan-Ude.
+           I like to play basketball and swim and play computer video games.
+           Also love to listen music.</p>
+      </section>
+      <hr/>
+      <section id="resume">
+        <h2>Resume</h2>
+        <ul>
+            <li>Full Name: Torobekov Turatbek Abbasovich</li>
+            <li>Phone number: <a href="tel:+996555909699"> +996 555 909 699</a></li>
+            <li>Email: <a href="mailto:turatbek.torobekov@alatoo.edu.kg">turatbek.torobekov@alatoo.edu.kg</a></li>
+            <li>Education:Graduated from school gymnasium No. 14</li>
+            <li>Studing in AIU</li>
+            <li>Skills:</li>
+            <li>
+                <ul class="skills">
+                    <li>C++</li>
+                    <li>3D modeling</li>
+                    <li>HTML+CSS</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    
+                </ul>
+              <li>Languages:</li>
+            <li>
+              <ul class="languages">
+                    <li>English</li>
+                    <li>Russian</li>
+                    <li>Kyrgyz</li>
+              </ul>
+              <p>
+                My favorite player - Kyrie Irving.And this is how I wanna play basketball.
+              </p>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/R42NQztB0j4?si=C73Z-SlVgx_Yj9kL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </ul>
+      </section>
+      <hr/>
+      <section id="works">
+        <h2>My Works</h2>
+        <div class="work">
+          <img src="firstwork.jpeg" alt="Work 1" />
+        </div>
+        <div class="work">
+          <img src="table.jpg" alt="Work 2">
+        </div>
+        <div class="work">
+            <img src="lastwork.jpg" alt="Work 2">
+          </div>
+      </section>
+      <hr/>
+      <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+          <img src="gallery.jpg" alt="Gallery 1" class="item1">
+          <img src="gallery1.jpg" alt="Gallery 2" class="item2">
+          <img src="gallery2.jpg" alt="Gallery 3" class="item3">
+          <img src="gallery3.jpg" alt="Gallery 4" class="item4">
+        </div>
+      </section>
+      <hr/>
+    </main>
+    <footer>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+              <li>Phone number: <a href="tel:+996555909699"> +996 555 909 699</a></li>
+              <li>Instagram: <a href="https://instagram.com/theyloveturat?igshid=NzZlODBkYWE4Ng%3D%3D&utm_source=qr"> @theyloveturat</a> </li>
+              <li>Email: <a href="mailto:turatbek.torobekov@alatoo.edu.kg">turatbek.torobekov@alatoo.edu.kg</a></li>
+            </ul>
+          </section>
+    </footer>
+  </body>
+  <script>
+    $('.nav-toggle').on('click', function(){
+      $('#menu').toggleClass('active');
+    });
+    </script>
+</html>
